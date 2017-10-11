@@ -1,8 +1,82 @@
 @charset "UTF-8";
 
+html {
+  background-color: rgba(114, 74, 143, 0.6);
+}
+
+
+/*Main Container Styles*/
 #container {
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(194, 194, 193);
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px dashed black;
+  border-radius: 20px;
+}
+
+/*Image Styles*/
+img {
+  float: right;
+  margin: 50px 50px 0px 0px;
+  border: 1px dashed black;
+  border-radius: 20px;
+}
+
+/*Name Header Styles*/
+h1 {
+font-family: 'Amatic SC', cursive;
+font-size: 4em;
+}
+
+/*Contact Styles*/
+#contact-info {
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+#phone a:link, a:visited {
+  text-decoration: none;
+  color: rgb(114, 74, 143);
+}
+
+#phone a:hover, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+#email a:link, a:visited {
+  text-decoration: none;
+  color: rgb(114, 74, 143);
+}
+
+#email a:hover, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+
+/*Header Styles*/
+
+h3 {
+  border-bottom: 1px dashed black;
+  color: rgb(114, 74, 143);
+}
+/*Education Section Styles*/
+#education-info {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/*Work Experience Styles*/
+#work-info {
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+}
+
+.date {
+  float: right;
 }
